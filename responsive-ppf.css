@@ -1,0 +1,43 @@
+@media screen and (max-width: 425px) {
+  .mobile-menu {
+    display: block;
+    padding: 38px;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar .logo {
+    margin: 0;
+    padding: 38px;
+  }
+
+  .sidebar {
+    width: 150px;
+  }
+
+  main .section-title {
+    margin-left: -95px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-repeat: no-repeat;
+  }
+
+  .mobile-menu {
+    display: block;
+    padding: 38px;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar .logo {
+    margin: 0;
+    padding: 38px;
+  }
+}

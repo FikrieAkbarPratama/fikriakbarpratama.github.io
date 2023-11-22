@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+main {
+  color: white;
+  padding: 180px 0 100px 0;
+  margin: 0 63px;
+}
+
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 0 36px;
+}
+
+.section img {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.section-title p {
+  font-size: 35px;
+  width: 90px;
+  border-bottom: 2px solid white;
+  margin-left: 63px;
+  margin-top: -20px;
+}
+
+.section {
+  display: flex;
+}
+
+.thumbnails .onemg img {
+  width: 354px;
+  height: 472px;
+}
+
+.thumbnails .sevenmg img {
+  width: 472px;
+  height: 354px;
+}
+
+.in-color {
+  color: palegoldenrod;
+}

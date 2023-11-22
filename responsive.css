@@ -1,0 +1,52 @@
+@media screen and (max-width: 425px) {
+  .mobile-menu {
+    display: block;
+    padding: 38px;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar .logo {
+    margin: 0;
+    padding: 38px;
+  }
+
+  main article .titles {
+    margin-left: 90px;
+  }
+
+  article .titles .title-1 {
+    font-size: 36px;
+    margin-bottom: -20px;
+  }
+
+  article .titles .title-2 {
+    font-size: 22px;
+  }
+
+  .sidebar {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-repeat: no-repeat;
+  }
+
+  .mobile-menu {
+    display: block;
+    padding: 38px;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar .logo {
+    margin: 0;
+    padding: 38px;
+  }
+}

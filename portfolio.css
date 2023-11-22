@@ -1,0 +1,96 @@
+body {
+  background-color: black;
+}
+
+/* main-start */
+
+main .contents {
+  display: flex;
+  padding: 180px 0 100px 0;
+  justify-content: center;
+}
+
+main .section-title {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 40px;
+  margin-bottom: -142px;
+  animation: mymove2 2s ease-in;
+  cursor: default;
+}
+
+.in-color {
+  color: palegoldenrod;
+}
+
+.kotak {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+main .content-item {
+  width: 354px;
+  height: 472px;
+  margin: 23px;
+  position: relative;
+  overflow: hidden;
+}
+
+main .content-item .kotak img {
+  width: 354px;
+  height: 472px;
+  position: relative;
+  justify-content: space-evenly;
+  animation: mymove 2s ease-in;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  opacity: 0.8;
+}
+
+main .content-item .kotak p {
+  color: white;
+  position: absolute;
+  animation: mymove2 3s ease-in;
+  font-size: 23px;
+  letter-spacing: 2px;
+  opacity: 1;
+  align-items: center;
+  margin: 20px auto;
+  top: 200px;
+  left: 142px;
+  width: 100%;
+}
+
+/* main-end */
+/* --------------- */
+/* animation-start */
+
+@keyframes mymove {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8;
+  }
+}
+
+@keyframes mymove2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* animation-end */
+/* ---------------- */
+/* pseudo-class-start */
+
+main .content-item:hover .kotak img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+  opacity: 0.4;
+}

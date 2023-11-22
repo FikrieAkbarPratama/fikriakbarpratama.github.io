@@ -1,0 +1,44 @@
+body {
+  background-image: url("https://images.pexels.com/photos/783941/pexels-photo-783941.jpeg?auto=compress&cs=tinysrgb&w=800");
+  background-size: cover;
+}
+
+/* main-start */
+
+main {
+  padding: 180px 0 400px 0;
+  color: white;
+}
+
+main article .titles {
+  margin-left: 187px;
+  animation: mymove 2s ease-in;
+  position: relative;
+  cursor: default;
+}
+
+main article .title-1 {
+  font-size: 65px;
+  font-family: Arial;
+  letter-spacing: 2px;
+  margin-bottom: -68px;
+}
+
+main article .title-2 {
+  font-size: 26px;
+  letter-spacing: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* main-end */
+
+@keyframes mymove {
+  from {
+    opacity: 0;
+    top: 46px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
