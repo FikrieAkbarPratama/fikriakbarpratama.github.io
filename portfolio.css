@@ -20,10 +20,6 @@ main .section-title {
   cursor: default;
 }
 
-.in-color {
-  color: palegoldenrod;
-}
-
 .kotak {
   position: relative;
   top: 0;

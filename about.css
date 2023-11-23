@@ -2,21 +2,67 @@ body {
   background-color: black;
 }
 
-main {
+main article{
   padding: 200px 0 200px 0;
   color: white;
-}
-
-main h1 {
-  text-align: center;
-  font-size: 48px;
-}
-
-.about-color {
-  color: palegoldenrod;
-}
-
-article .wrapper {
+  margin: 0 199px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
+
+
+.text-wrapper {
+  display: block;
+  margin-top: -78px;
+}
+
+.text-wrapper p {
+  width: 350px;
+  font-size: 18px;
+  animation: text 1s ease;
+  transition: 1s ease;
+}
+
+.text-wrapper .section-title  {
+  font-size: 38px;
+  margin-bottom: -20px;
+  letter-spacing: 4px;
+  animation: title 1s ease;
+  transition: 1s ease;
+}
+
+aside {
+  margin-top: -87px;
+}
+
+aside img {
+  width: 354px;
+  height: 472px;
+  animation: mymove 2s ease-in;
+}
+
+/* animation */
+
+@keyframes mymove {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+@keyframes title {
+  from {
+    opacity: 0;
+    left: 98px;
+  }
+  to {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+
+
+
