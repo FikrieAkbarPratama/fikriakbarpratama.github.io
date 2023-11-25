@@ -14,12 +14,12 @@ main article{
 .text-wrapper {
   display: block;
   margin-top: -78px;
+  animation: title 1s ease;
 }
 
 .text-wrapper p {
   width: 350px;
   font-size: 18px;
-  animation: text 1s ease;
   transition: 1s ease;
 }
 
@@ -27,7 +27,6 @@ main article{
   font-size: 38px;
   margin-bottom: -20px;
   letter-spacing: 4px;
-  animation: title 1s ease;
   transition: 1s ease;
 }
 
@@ -55,11 +54,11 @@ aside img {
 @keyframes title {
   from {
     opacity: 0;
-    left: 98px;
+    top: 48px;
   }
   to {
     opacity: 1;
-    left: 0;
+    top: 0;
   }
 }
 
