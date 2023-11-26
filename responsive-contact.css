@@ -29,9 +29,9 @@
     padding: 0;
   }
 
-  .wrapper {
+  /* .wrapper {
     flex-direction: column;
-  }
+  } */
 
   .contact-text {
     border-bottom: 2px solid white;
