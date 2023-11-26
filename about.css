@@ -5,8 +5,8 @@ body {
 main article{
   padding: 200px 0 200px 0;
   color: white;
-  margin: 0 199px;
   display: flex;
+  margin: 0 200px;
   justify-content: space-between;
 }
 
@@ -14,13 +14,13 @@ main article{
 .text-wrapper {
   display: block;
   margin-top: -78px;
-  animation: title 1s ease;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 .text-wrapper p {
   width: 350px;
   font-size: 18px;
-  transition: 1s ease;
+  transition: 2s ease;
 }
 
 .text-wrapper .section-title  {
@@ -37,28 +37,46 @@ aside {
 aside img {
   width: 354px;
   height: 472px;
-  animation: mymove 2s ease-in;
+  box-shadow: 2px 2px 5px black;
+  animation: slide-in-blurred-tr 2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 
 /* animation */
 
-@keyframes mymove {
-  from {
-    height: 0;
+
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+ @keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
   }
-  to {
-    height: 100%;
+  100% {
+    filter: blur(0px);
+    opacity: 1;
   }
 }
 
-@keyframes title {
-  from {
+/**
+ * ----------------------------------------
+ * animation slide-in-blurred-tr
+ * ----------------------------------------
+ */
+ @keyframes slide-in-blurred-tr {
+  0% {
+    transform: translate(1000px, -1000px) skew(-80deg, -10deg);
+    transform-origin: 0% 0%;
+    filter: blur(40px);
     opacity: 0;
-    top: 48px;
   }
-  to {
+  100% {
+    transform: translate(0, 0) skew(0deg, 0deg);
+    transform-origin: 50% 50%;
+    filter: blur(0);
     opacity: 1;
-    top: 0;
   }
 }
 

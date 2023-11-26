@@ -59,32 +59,49 @@
       ></label>
     </nav>
     <main>
-      <h1>Contact</h1>
-      <div class="wrappper">
-        <div class="social-media">
-          <div class="icon one">
-            <a href="">
-              <i class="fa-brands fa-github fa-2xl"></i>
-              <p>Github</p>
-            </a>
-          </div>
-          <div class="icon two">
-            <a href="">
-              <i class="fa-solid fa-envelope fa-2xl"></i>
-              <p>Gmail</p>
-            </a>
-          </div>
+      <div class="section-title">
+        <h1>Contact</h1>
+      </div>
+      <div class="wrapper">
+        <div class="contact-text">
+          <p>Fikri Akbar Pratama</p>
+          <p>Email: fikri.akbar1p@gmail.com<br>Phone: 0831-3940-7794</p>
         </div>
         <!-- inputAndTextarea-here -->
-        <div class="contact">
-          <label for="fname">First Name</label> <br /><br>
-          <input type="text" id="fname" name="fname" !important> <br><br>
-          <label for="lname">Late Name</label> <br /><br>
-          <input type="text" id="lname" name="lname" !important> <br><br>
-          <input type="number"  id="number"><br><br>
-          <input type="email" id="email"><br><br>
-          <textarea id="message" cols="30" rows="10"></textarea>
-        </div>
+          <form action="/action_page.php">
+            <div id="fname">
+              <label for="fname">First Name</label><br /><br />
+              <input type="text" id="fname" name="fname" class="input fname"  />
+              <br /><br /><br />
+            </div>
+            <div id="lname">
+              <label for="lname">Late Name</label> <br /><br />
+              <input type="text" id="lname" name="lname" class="input lname" />
+              <br /><br /><br />
+            </div>
+            <div id="phone">
+              <label for="number">Phone</label><br /><br />
+              <input
+                type="text"
+                id="number"
+                name="phoneNumber"
+                class="input phone"
+              /><br /><br /><br />
+            </div>
+            <div id="email">
+              <label for="email">Email*</label><br /><br />
+              <input type="email" id="email" class="input email" required /><br /><br /><br />
+            </div>
+            <div id="textarea">
+              <label for="message">Leave a massage..</label><br /><br />
+              <textarea id="message" cols="30" rows="5"></textarea>
+            </div>
+            <div id="button">
+              <button>Submit</button>
+            </div>
+          </form>
+        <!-- inputAndTextarea-here-end -->
+
       </div>
     </main>
     <footer>
