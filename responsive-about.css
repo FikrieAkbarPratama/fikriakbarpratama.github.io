@@ -2,6 +2,7 @@
   .mobile-menu {
     display: block;
     padding: 38px;
+    margin-top: 5px;
   }
 
   .navbar ul {
@@ -15,6 +16,68 @@
 
   .sidebar {
     width: 150px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    border-bottom: 2px solid white;
+    margin-bottom: -30px;
+  }
+
+  main article .text-wrapper {
+    border-bottom: 2px solid white;
+    order: 2;
+  }
+
+  main article .text-wrapper p {
+    animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+  main article {
+    display: flex;
+    margin: 0 34px;
+    flex-direction: column;
+    margin-top: -54px;
+  }
+
+  main article .introduce aside {
+    border: none;
+    margin: 83px 0;
+    padding: 0;
+    order: 1;
+    animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+  main article .introduce {
+    flex-direction: column;
+  }
+
+  main article aside img {
+    width: 254px;
+    height: 372px;
+    animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+  /* ANIMATION */
+
+  /**
+ * ----------------------------------------
+ * animation slide-in-left
+ * ----------------------------------------
+ */
+  @keyframes slide-in-left {
+    0% {
+      transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
   }
 }
 

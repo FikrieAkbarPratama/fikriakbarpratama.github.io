@@ -28,6 +28,7 @@ form {
   margin-top: -97px;
   width: 45%;
   gap: 24px;
+  box-sizing: border-box;
 }
 
 .contact-text {

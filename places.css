@@ -17,6 +17,7 @@ main {
   align-items: center;
   gap: 24px;
   margin: 0 36px;
+  animation: focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 .section img {
@@ -28,9 +29,9 @@ main {
 .section-title p {
   font-size: 35px;
   width: 90px;
-  border-bottom: 2px solid white;
   margin-left: 63px;
   margin-top: -20px;
+  animation: focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 .section {
@@ -45,6 +46,22 @@ main {
 .thumbnails .sevenmg img {
   width: 472px;
   height: 354px;
+}
+
+/**
+ * ----------------------------------------
+ * animation focus-in
+ * ----------------------------------------
+ */
+ @keyframes focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
 }
 
 

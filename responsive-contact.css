@@ -2,6 +2,7 @@
   .mobile-menu {
     display: block;
     padding: 38px;
+    margin-top: 5px;
   }
 
   .navbar ul {
@@ -15,6 +16,49 @@
 
   .sidebar {
     width: 150px;
+  }
+
+  .section-title h1{
+    font-size: 28px;
+    margin-bottom: 34px;
+    margin-top: 78px;
+  }
+
+  main {
+    margin: 0 24px;
+    padding: 0;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .contact-text {
+    border-bottom: 2px solid white;
+    width: 100%;
+  }
+
+  .wrapper form label {
+    font-size: 12px;
+  }
+
+  .wrapper form {
+    flex-direction: column;
+    display: flex;
+    width: 250px;
+    margin: 40px 0;
+  }
+
+  .wrapper form input {
+    width: 65px;
+  }
+
+  #textarea textarea {
+    width: 230px;
+  }
+
+  footer p {
+    font-size: 14px;
   }
 }
 

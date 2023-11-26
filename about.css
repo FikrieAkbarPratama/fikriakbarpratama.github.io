@@ -5,8 +5,11 @@ body {
 main article{
   padding: 200px 0 200px 0;
   color: white;
-  display: flex;
   margin: 0 200px;
+}
+
+main article .introduce {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -19,19 +22,23 @@ main article{
 
 .text-wrapper p {
   width: 350px;
-  font-size: 18px;
-  transition: 2s ease;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
-.text-wrapper .section-title  {
+.section-title  {
   font-size: 38px;
-  margin-bottom: -20px;
+  margin-bottom: 120px;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   letter-spacing: 4px;
-  transition: 1s ease;
+  margin-top: -97px;
 }
 
 aside {
-  margin-top: -87px;
+  margin-top: -157px;
+  border-left: 1px solid white;
+  padding-left: 200px;
+  animation: slide-in-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 aside img {
@@ -76,6 +83,23 @@ aside img {
     transform: translate(0, 0) skew(0deg, 0deg);
     transform-origin: 50% 50%;
     filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+/**
+ * ----------------------------------------
+ * animation slide-in-bottom
+ * ----------------------------------------
+ */
+ @keyframes slide-in-bottom {
+  0% {
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
     opacity: 1;
   }
 }

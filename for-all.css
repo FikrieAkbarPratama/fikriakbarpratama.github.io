@@ -76,8 +76,6 @@ header a i {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  z-index: 999;
-
   cursor: default;
 }
 
@@ -144,5 +142,3 @@ ul.menu li a.active {
 
 /* pseudo-class-end */
 /* ------------------ */
-
-

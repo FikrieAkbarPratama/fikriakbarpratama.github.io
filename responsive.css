@@ -2,7 +2,10 @@
   .mobile-menu {
     display: block;
     padding: 38px;
+    margin-top: 5px;
   }
+
+  main article
 
   .navbar ul {
     display: none;
@@ -28,6 +31,10 @@
 
   .sidebar {
     width: 150px;
+  }
+
+  footer p {
+    font-size: 14px;
   }
 }
 
