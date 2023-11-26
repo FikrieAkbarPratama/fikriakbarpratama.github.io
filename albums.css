@@ -32,8 +32,6 @@ main .section-title {
   margin-left: 90px;
 }
 
-
-
 .kotak {
   position: relative;
   top: 0;
@@ -60,6 +58,8 @@ main .content-item .kotak img {
 }
 
 main .content-item .kotak p {
+  text-wrap: wrap;
+  text-align: center;
   color: white;
   position: absolute;
   animation: mymove3 3s ease-in;
@@ -67,11 +67,10 @@ main .content-item .kotak p {
   letter-spacing: 2px;
   opacity: 1;
   align-items: center;
-  margin: 20px auto;
   transition: 0.4s ease;
-  top: 200px;
-  left: 142px;
-  width: 100%;
+  top: 220px;
+  left: 100px;
+  width: 50%;
 }
 
 /* animation-start */

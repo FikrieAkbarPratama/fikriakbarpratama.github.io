@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  color: white;
+  padding: 220px 0 290px 0;
+}
+
+main h1 {
+  font-size: 38px;
+  text-align: center;
+}
