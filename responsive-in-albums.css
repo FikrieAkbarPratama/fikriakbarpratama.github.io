@@ -26,6 +26,7 @@
   main .contents .content-item p {
     text-wrap: wrap;
     text-align: center;
+    width: 25%;
   }
 
   footer p {
