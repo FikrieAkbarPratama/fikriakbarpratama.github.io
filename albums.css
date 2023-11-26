@@ -60,6 +60,7 @@ main .content-item .kotak img {
 main .content-item .kotak p {
   text-wrap: wrap;
   text-align: center;
+  margin: 120px;
   color: white;
   position: absolute;
   animation: mymove3 3s ease-in;
