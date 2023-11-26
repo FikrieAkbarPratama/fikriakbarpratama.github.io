@@ -29,9 +29,10 @@
     padding: 0;
   }
 
-  /* .wrapper {
+  .wrapper {
     flex-direction: column;
-  } */
+    display: flex;
+  }
 
   .contact-text {
     border-bottom: 2px solid white;
