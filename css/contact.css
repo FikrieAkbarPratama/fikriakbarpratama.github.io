@@ -12,7 +12,7 @@ main {
   font-size: 54px;
   margin-bottom: 90px;
   margin-top: -90px;
-  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .wrapper {
@@ -26,7 +26,7 @@ form {
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: -97px;
-  width: 45%;
+  width: 40%;
   gap: 24px;
   box-sizing: border-box;
 }
@@ -113,7 +113,7 @@ form textarea:hover {
  * animation tracking-in-expand
  * ----------------------------------------
  */
- @keyframes tracking-in-expand {
+@keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;
     opacity: 0;
